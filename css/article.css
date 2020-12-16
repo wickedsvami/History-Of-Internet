@@ -1,19 +1,82 @@
 footer {
-    background: #343C44;
-    color: white;
-    position: fixed;
+    padding-top: 1rem;
     text-align: center;
-    padding-bottom: 1rem;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 5rem;
+    padding-bottom: 20px;
+    background-color: #343C44;
+    color: white;
+}
+.jumbotron {
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem;
+    margin-bottom: 0;
 }
 
-.jumbotron {
-    background-image: url("/images/browser-img.jpg");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    margin-top: 0;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #5d5c61;
+    padding: 2rem;
     text-align: center;
-    padding-bottom: 8rem;
-    background-size: cover;
     color: white;
+    position: -webkit-sticky;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    background-color: #343C44;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Change color of nav text */
+nav a{
+    color: white;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: royalblue;
+    padding: 10px;
+    color: white;
+}
+
+article p{
+    width: 90%;
+    padding-left: 1rem;
+}
+
+.list-group{
+    color: white;
+}
+
+.list-group .active{
+    background-color: #557A95;
+}
+
+.list-group li{
+    background-color: #7395AE;
 }
