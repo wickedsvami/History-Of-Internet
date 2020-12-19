@@ -1,5 +1,5 @@
 George Varghese
-Michael Texiera
+Michael Teixeira
 
 The purpose of this project was to create a website in order
 learn more about the internet.
